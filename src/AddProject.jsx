@@ -29,7 +29,8 @@ const AddProject = ({ cancelProject, onAddProject }) => {
   return (
     <>
       <Modal ref={modal} buttonCaption="Close">
-        <p>All fields are mandatory</p>
+      <p className="py-1">All fields are mandatory</p>
+        <p>Please make sure that you provided all the required values</p>
       </Modal>
       <div className="bg-emerald-500 w-full text-center font-bold text-stone-50 uppercase py-16">
         <Input ref={title} label="Title" type="text" />

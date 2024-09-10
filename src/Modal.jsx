@@ -14,7 +14,7 @@ const Modal = ({ buttonCaption, children }, ref) => {
   })
 
   return (
-    <dialog ref={dialog}>
+    <dialog className="w-[20rem] h-[10rem] rounded-md" ref={dialog}>
       {children}
       <form method="dialog">
         <Button>{buttonCaption}</Button>
